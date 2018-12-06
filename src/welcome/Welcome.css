@@ -1,0 +1,85 @@
+
+.welcome-container {
+    padding: 50px 45px 15px 45px;
+    background-color: #5d3941;
+    height: 100%;
+}
+
+.welcome-container .welcome-text {
+    color: #f8f0f0;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.8px;
+    font-family: 'Helvetica Neue Light'
+}
+
+.welcome-container .welcome-text .hightligh {
+    font-weight: 700;
+}
+
+.welcome-container .welcome-form {
+    margin-top: 35px;
+    font-family: 'Helvetica Neue Light';
+}
+
+.welcome-container .welcome-form div + div {
+    margin-top: 20px;
+}
+
+.welcome-container .welcome-form div {
+    position: relative;
+}
+
+.welcome-container input {
+    border-radius: 20px;
+    background-color: #e5dcde;
+    outline: none;
+    padding: 3px 10px;
+    border: none;
+    width: calc(100% - 20px);
+    height: 38px;
+    font-size: 20px;
+    color: #832c3d;
+    font-family: 'Helvetica Neue Light';
+    
+}
+
+.welcome-container span.require {
+    content: '*';
+    color: red;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    font-size: 20px;
+    height: 14px;
+    font-weight: bold;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.welcome-container .welcome-form button {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 20px;
+    border: 1px solid #faf4f4;
+    background-color: #832c3d;
+    padding: 3px 10px;
+    font-weight: 100;
+    color: white;
+    height: 44px;
+    font-size: 18px;
+    outline: none;
+    width: 100%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-family: 'Helvetica Neue Light';
+}
+
+.welcome-container .welcome-form ::placeholder {
+    color: #832c3d;
+    font-family: 'Helvetica Neue Light';
+}

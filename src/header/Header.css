@@ -1,0 +1,13 @@
+.header-container {
+    background-color: #832c3d;
+    color: #ffffff;
+    font-family: "Kozuka Gothic Pro";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    display: flex;
+    padding: 0 20px;
+    height: 42px;
+    align-items: center;
+    justify-content: space-between;
+}
